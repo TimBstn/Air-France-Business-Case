@@ -11,4 +11,8 @@ AirFrance is looking to expand their online marketing startegy in the United Sta
 After looking into the data, we saw that the keyword feature seems to be important for the case, but as there were to many different words, we decided to group them into 3 specific labels: "Air France", "Flight general" and "Flight to location". To maximize the outcome of the campaign, we analyzed the previous used strategies in a regression analysis. Furthermore, we created insightful charts using plotly to support our points.
 
 
-
+## The team
+This was done as a team project with
+- [Roberto]()
+- [Isa]()
+- [Annie]()
