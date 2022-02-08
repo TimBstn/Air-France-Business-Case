@@ -2,7 +2,7 @@
 
 [See our video here](https://youtu.be/ipFLvqWsyac)
 
-<img src="img/AirFrance.PNG?raw=true"/>
+<img src="img/AirFrance.png?raw=true"/>
 
 ## The case
 
