@@ -15,15 +15,15 @@ library(writexl)      # package for saving excel files
 #################################
 
 # loading data and mappings
-data_AF <- read_excel("Hult/R/Air France/Air France Case Spreadsheet Supplement.xls", 
+data_AF <- read_excel("downloads/data/Air France Case Spreadsheet Supplement.xls", 
                       sheet = "DoubleClick")
 
 # loading our Mapping for keywords
-keyword_label <- read_excel("Hult/R/Air France/Mapping.xlsx", 
+keyword_label <- read_excel("downloads/data/Mapping.xlsx", 
                             sheet = "Keyword_label") 
 
 #loading the destinations Air France flights to
-destinations <- read_excel("Hult/R/Air France/Mapping.xlsx",
+destinations <- read_excel("downloads/data/Mapping.xlsx",
                            sheet = "Flights Air France")
 
 
@@ -190,7 +190,7 @@ plot_ly(data = Pivot_table_publisher_US,
         y = Pivot_table_publisher_US$ROA,
         color = "#E04834",
         type = "bar") %>% 
-  layout(title = list(text = "ROA per Publisher", 
+  layout(title = list(text = "Net ROA per Publisher", 
                       y = 0.95,
                       font = list(family = "Arial Black", 
                                   size = 25
@@ -270,7 +270,7 @@ plot_ly(data = data_AF_US_top5,
         y = data_AF_US_top5$ROA,
         color = "#E04834",
         type = "bar") %>% 
-  layout(title = list(text = "ROA per keyword",
+  layout(title = list(text = "Net ROA per keyword",
                       y = 0.95,
                       font = list(family = "Arial Black", 
                                   size = 25
